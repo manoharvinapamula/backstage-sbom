@@ -1,0 +1,19 @@
+Backstage:
+{
+  "version": "1.55.3"
+}
+
+Node:
+v24.21.0
+
+Yarn:
+4.13.0
+
+Architecture:
+aarch64
+
+OS:
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+
+Lockfile:
+1925bbd69faeb5f7d878148f2a88a494ffa082527a4105275f2230551bbe0f18  yarn.lock

@@ -1,0 +1,6 @@
+Backstage: 1.55.3
+Node: v24.21.0
+Yarn: 4.13.0
+npm: 11.19.0
+Platform: Linux
+Architecture: aarch64

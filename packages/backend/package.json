@@ -56,6 +56,7 @@
     "@backstage/plugin-signals-backend": "^0.3.19",
     "@backstage/plugin-techdocs-backend": "^2.3.0",
     "@backstage/plugin-user-settings-backend": "^0.4.7",
+    "@terasky/backstage-plugin-kubernetes-ingestor": "4.0.0",
     "app": "link:../app",
     "better-sqlite3": "^12.0.0",
     "node-gyp": "^10.0.0",

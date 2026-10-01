@@ -108,4 +108,9 @@ backend.add(
   import('@backstage/plugin-auth-backend-module-guest-provider'),
 );
 
+// Kubernetes runtime discovery
+backend.add(
+  import('@terasky/backstage-plugin-kubernetes-ingestor'),
+);
+
 backend.start();

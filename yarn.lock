@@ -1890,7 +1890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/backend-defaults@npm:^0.17.7, @backstage/backend-defaults@npm:^0.17.8":
+"@backstage/backend-defaults@npm:^0.17.4, @backstage/backend-defaults@npm:^0.17.7, @backstage/backend-defaults@npm:^0.17.8":
   version: 0.17.8
   resolution: "@backstage/backend-defaults@npm:0.17.8"
   dependencies:
@@ -2100,7 +2100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/backend-plugin-api@npm:^1.10.0, @backstage/backend-plugin-api@npm:^1.10.1":
+"@backstage/backend-plugin-api@npm:^1.10.0, @backstage/backend-plugin-api@npm:^1.10.1, @backstage/backend-plugin-api@npm:^1.9.2":
   version: 1.10.1
   resolution: "@backstage/backend-plugin-api@npm:1.10.1"
   dependencies:
@@ -2121,7 +2121,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/catalog-client@npm:^1.16.1, @backstage/catalog-client@npm:^1.16.2":
+"@backstage/catalog-client@npm:^1.16.0, @backstage/catalog-client@npm:^1.16.1, @backstage/catalog-client@npm:^1.16.2":
   version: 1.16.2
   resolution: "@backstage/catalog-client@npm:1.16.2"
   dependencies:
@@ -2748,7 +2748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/core-plugin-api@npm:^1.12.10, @backstage/core-plugin-api@npm:^1.12.8, @backstage/core-plugin-api@npm:^1.12.9":
+"@backstage/core-plugin-api@npm:^1.12.10, @backstage/core-plugin-api@npm:^1.12.7, @backstage/core-plugin-api@npm:^1.12.8, @backstage/core-plugin-api@npm:^1.12.9":
   version: 1.12.10
   resolution: "@backstage/core-plugin-api@npm:1.12.10"
   dependencies:
@@ -3508,7 +3508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-catalog-import@npm:^0.13.18":
+"@backstage/plugin-catalog-import@npm:^0.13.14, @backstage/plugin-catalog-import@npm:^0.13.18":
   version: 0.13.18
   resolution: "@backstage/plugin-catalog-import@npm:0.13.18"
   dependencies:
@@ -3547,7 +3547,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-catalog-node@npm:^2.2.4, @backstage/plugin-catalog-node@npm:^2.2.5":
+"@backstage/plugin-catalog-node@npm:^2.2.2, @backstage/plugin-catalog-node@npm:^2.2.4, @backstage/plugin-catalog-node@npm:^2.2.5":
   version: 2.2.5
   resolution: "@backstage/plugin-catalog-node@npm:2.2.5"
   dependencies:
@@ -3668,7 +3668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-events-node@npm:^0.4.25, @backstage/plugin-events-node@npm:^0.4.26":
+"@backstage/plugin-events-node@npm:^0.4.23, @backstage/plugin-events-node@npm:^0.4.25, @backstage/plugin-events-node@npm:^0.4.26":
   version: 0.4.26
   resolution: "@backstage/plugin-events-node@npm:0.4.26"
   dependencies:
@@ -3748,7 +3748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-kubernetes-backend@npm:^0.21.11":
+"@backstage/plugin-kubernetes-backend@npm:^0.21.11, @backstage/plugin-kubernetes-backend@npm:^0.21.5":
   version: 0.21.11
   resolution: "@backstage/plugin-kubernetes-backend@npm:0.21.11"
   dependencies:
@@ -3800,7 +3800,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-kubernetes-node@npm:^0.4.8":
+"@backstage/plugin-kubernetes-node@npm:^0.4.5, @backstage/plugin-kubernetes-node@npm:^0.4.8":
   version: 0.4.8
   resolution: "@backstage/plugin-kubernetes-node@npm:0.4.8"
   dependencies:
@@ -3889,7 +3889,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-kubernetes@npm:^0.12.23":
+"@backstage/plugin-kubernetes@npm:^0.12.20, @backstage/plugin-kubernetes@npm:^0.12.23":
   version: 0.12.23
   resolution: "@backstage/plugin-kubernetes@npm:0.12.23"
   dependencies:
@@ -4071,7 +4071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-permission-common@npm:^0.9.10, @backstage/plugin-permission-common@npm:^0.9.11":
+"@backstage/plugin-permission-common@npm:^0.9.10, @backstage/plugin-permission-common@npm:^0.9.11, @backstage/plugin-permission-common@npm:^0.9.9":
   version: 0.9.11
   resolution: "@backstage/plugin-permission-common@npm:0.9.11"
   dependencies:
@@ -4577,7 +4577,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-signals-node@npm:^0.2.5":
+"@backstage/plugin-signals-node@npm:^0.2.2, @backstage/plugin-signals-node@npm:^0.2.5":
   version: 0.2.5
   resolution: "@backstage/plugin-signals-node@npm:0.2.5"
   dependencies:
@@ -11591,6 +11591,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@terasky/backstage-plugin-kubernetes-ingestor@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@terasky/backstage-plugin-kubernetes-ingestor@npm:4.0.0"
+  dependencies:
+    "@backstage/backend-defaults": "npm:^0.17.4"
+    "@backstage/backend-plugin-api": "npm:^1.9.2"
+    "@backstage/catalog-client": "npm:^1.16.0"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/config": "npm:^1.3.8"
+    "@backstage/core-plugin-api": "npm:^1.12.7"
+    "@backstage/plugin-catalog-import": "npm:^0.13.14"
+    "@backstage/plugin-catalog-node": "npm:^2.2.2"
+    "@backstage/plugin-events-node": "npm:^0.4.23"
+    "@backstage/plugin-kubernetes": "npm:^0.12.20"
+    "@backstage/plugin-kubernetes-backend": "npm:^0.21.5"
+    "@backstage/plugin-kubernetes-common": "npm:^0.9.12"
+    "@backstage/plugin-kubernetes-node": "npm:^0.4.5"
+    "@backstage/plugin-permission-common": "npm:^0.9.9"
+    "@backstage/plugin-signals-node": "npm:^0.2.2"
+    "@types/pluralize": "npm:^0.0.33"
+    express: "npm:^4.17.1"
+    express-promise-router: "npm:^4.1.1"
+    js-yaml: "npm:^4.1.0"
+    node-fetch: "npm:^2.7.0"
+    pluralize: "npm:^8.0.0"
+    winston: "npm:^3.2.1"
+  checksum: 10c0/936d72a5b83ab02f316e512fa68ea6c12cd7c1e3df0da7ba054a805c4138c527e4314264af529daa8c2b2f254c3aca74fa36258cd94d61c6c141f3e2d9fa45af
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:^10.0.0":
   version: 10.4.2
   resolution: "@testing-library/dom@npm:10.4.2"
@@ -12380,6 +12410,13 @@ __metadata:
   dependencies:
     "@types/express": "npm:*"
   checksum: 10c0/09039429a9178117a80880c4e7d437abc83216eac5e0c97bc6f14a03a59193386cff484931dc880693f8b13a512c366ef7a51ecd8cc1a63f17366be68161f633
+  languageName: node
+  linkType: hard
+
+"@types/pluralize@npm:^0.0.33":
+  version: 0.0.33
+  resolution: "@types/pluralize@npm:0.0.33"
+  checksum: 10c0/24899caf85b79dd291a6b6e9b9f3b67b452b18d578d0ac0d531a705bf5ee0361d9386ea1f8532c64de9e22c6e9606c5497787bb5e31bd299c487980436c59785
   languageName: node
   linkType: hard
 
@@ -14988,6 +15025,7 @@ __metadata:
     "@backstage/plugin-signals-backend": "npm:^0.3.19"
     "@backstage/plugin-techdocs-backend": "npm:^2.3.0"
     "@backstage/plugin-user-settings-backend": "npm:^0.4.7"
+    "@terasky/backstage-plugin-kubernetes-ingestor": "npm:4.0.0"
     app: "link:../app"
     better-sqlite3: "npm:^12.0.0"
     node-gyp: "npm:^10.0.0"
@@ -19203,7 +19241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-promise-router@npm:^4.1.0":
+"express-promise-router@npm:^4.1.0, express-promise-router@npm:^4.1.1":
   version: 4.1.1
   resolution: "express-promise-router@npm:4.1.1"
   dependencies:

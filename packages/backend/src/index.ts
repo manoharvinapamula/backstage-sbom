@@ -82,4 +82,10 @@ backend.add(import('@backstage/plugin-signals-backend'));
 // mcp actions plugin
 backend.add(import('@backstage/plugin-mcp-actions-backend'));
 
+// tech insights
+backend.add(import('@backstage-community/plugin-tech-insights-backend'));
+backend.add(
+  import('@backstage-community/plugin-tech-insights-backend-module-jsonfc'),
+);
+
 backend.start();

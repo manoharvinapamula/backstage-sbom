@@ -36,13 +36,15 @@ backend.add(import('@backstage/plugin-catalog-backend'));
 backend.add(
   import('@backstage/plugin-catalog-backend-module-incremental-ingestion'),
 );
-
 backend.add(
   import('@backstage-community/plugin-catalog-backend-module-aws-config'),
 );
 backend.add(import('@backstage/plugin-catalog-backend-module-github'));
 backend.add(
   import('@backstage/plugin-catalog-backend-module-scaffolder-entity-model'),
+);
+backend.add(
+  import('@backstage/plugin-catalog-backend-module-ai-model'),
 );
 
 // See https://backstage.io/docs/features/software-catalog/configuration#subscribing-to-catalog-errors
@@ -90,5 +92,20 @@ backend.add(
 
 // Argo CD
 backend.add(import('@backstage-community/plugin-argocd-backend'));
+
+// OIDC
+backend.add(import('@backstage/plugin-auth-backend'));
+
+backend.add(
+  import('@backstage/plugin-auth-backend-module-oidc-provider'),
+);
+
+backend.add(
+  import('@backstage/plugin-auth-backend-module-github-provider'),
+);
+
+backend.add(
+  import('@backstage/plugin-auth-backend-module-guest-provider'),
+);
 
 backend.start();

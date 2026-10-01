@@ -16,6 +16,7 @@
     "build-image": "docker build ../.. -f Dockerfile --tag backstage"
   },
   "dependencies": {
+    "@backstage-community/plugin-argocd-backend": "1.7.2",
     "@backstage-community/plugin-catalog-backend-module-aws-config": "0.3.0",
     "@backstage-community/plugin-jenkins-backend": "0.32.0",
     "@backstage-community/plugin-tech-insights-backend": "3.1.0",

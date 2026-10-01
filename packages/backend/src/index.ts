@@ -88,4 +88,7 @@ backend.add(
   import('@backstage-community/plugin-tech-insights-backend-module-jsonfc'),
 );
 
+// Argo CD
+backend.add(import('@backstage-community/plugin-argocd-backend'));
+
 backend.start();

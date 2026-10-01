@@ -32,6 +32,14 @@ backend.add(import('@backstage/plugin-auth-backend-module-guest-provider'));
 
 // catalog plugin
 backend.add(import('@backstage/plugin-catalog-backend'));
+
+backend.add(
+  import('@backstage/plugin-catalog-backend-module-incremental-ingestion'),
+);
+
+backend.add(
+  import('@backstage-community/plugin-catalog-backend-module-aws-config'),
+);
 backend.add(import('@backstage/plugin-catalog-backend-module-github'));
 backend.add(
   import('@backstage/plugin-catalog-backend-module-scaffolder-entity-model'),

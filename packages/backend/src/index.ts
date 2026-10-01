@@ -47,6 +47,9 @@ backend.add(
   import('@backstage/plugin-permission-backend-module-allow-all-policy'),
 );
 
+// jenkins plugin
+backend.add(import('@backstage-community/plugin-jenkins-backend'));
+
 // search plugin
 backend.add(import('@backstage/plugin-search-backend'));
 

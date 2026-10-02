@@ -128,4 +128,14 @@ backend.add(
   import('@backstage-community/plugin-vault-backend'),
 );
 
+// Terraform Enterprise visibility
+backend.add(
+  import('@globallogicuki/backstage-plugin-terraform-backend'),
+);
+
+// OpenAPI / AsyncAPI $ref resolution
+backend.add(
+  import('@backstage/plugin-catalog-backend-module-openapi'),
+);
+
 backend.start();

@@ -2,8 +2,14 @@ app:
   title: Scaffolded Backstage App
   baseUrl: http://localhost:3000
 
-  # Enable all packages by default, this will discover packages from packages/app/package.json
-  packages: all
+  # Auto-discover compatible frontend plugins, except integrations
+  # intentionally retained only for SBOM/Curation or deferred activation.
+  packages:
+    exclude:
+      - '@backstage-community/plugin-kafka'
+      - '@globallogicuki/backstage-plugin-terraform'
+      - '@backstage-community/plugin-rbac'
+      - '@backstage-community/plugin-mcp-chat'
 
   extensions:
     # Default landing page configuration.

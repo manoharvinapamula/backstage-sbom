@@ -113,4 +113,19 @@ backend.add(
   import('@terasky/backstage-plugin-kubernetes-ingestor'),
 );
 
+// SonarQube
+backend.add(
+  import('@backstage-community/plugin-sonarqube-backend'),
+);
+
+// ServiceNow
+backend.add(
+  import('@backstage-community/plugin-servicenow-backend'),
+);
+
+// Vault
+backend.add(
+  import('@backstage-community/plugin-vault-backend'),
+);
+
 backend.start();

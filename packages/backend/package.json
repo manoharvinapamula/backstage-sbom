@@ -62,6 +62,7 @@
     "@backstage/plugin-techdocs-backend": "^2.3.0",
     "@backstage/plugin-user-settings-backend": "^0.4.7",
     "@globallogicuki/backstage-plugin-terraform-backend": "0.12.0",
+    "@nospt/backstage-plugin-apigee-backend": "1.1.1",
     "@terasky/backstage-plugin-kubernetes-ingestor": "4.0.0",
     "app": "link:../app",
     "better-sqlite3": "^12.0.0",

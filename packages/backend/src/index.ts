@@ -138,4 +138,9 @@ backend.add(
   import('@backstage/plugin-catalog-backend-module-openapi'),
 );
 
+// Apigee API Hub / catalog integration
+backend.add(
+  import('@nospt/backstage-plugin-apigee-backend'),
+);
+
 backend.start();
